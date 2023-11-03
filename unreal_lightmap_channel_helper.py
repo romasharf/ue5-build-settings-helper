@@ -7,7 +7,7 @@ import unreal
 
 
 #function finds "wrong" lightmap building settings for each lod of assets selected in content browser
-def setNiceLightmapChannels():
+def checkLightmapSettings():
 
     wrong_lm_settings_count = 0 #total amount of lightmap build settings to fix
     sm_edit_subsys = unreal.StaticMeshEditorSubsystem()
